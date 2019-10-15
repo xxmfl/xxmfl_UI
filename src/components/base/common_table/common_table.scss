@@ -1,0 +1,50 @@
+.table-expand {
+  font-size: 0;
+}
+
+.table-expand label {
+  width: 90px;
+  color: #99a9bf;
+}
+
+.el-form.table-expand.el-form--label-left.el-form--inline .el-form-item {
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 50%;
+}
+
+.el-table__expanded-cell {
+  background: #f5f9ff;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.ml-0 {
+  margin-left: 5px;
+}
+.el-table th {
+  background: #fafafa;
+}
+.el-table td{
+  padding: 5px 0px;
+}
+.title {
+  font-weight: bold;
+}
+
+.base-form-header th>.cell {
+  /* text-align: center; */
+  font-weight: bold;
+  color: #676a6c;
+}
+.select-column{
+  width: 160px;
+  display: inline-block;
+  margin-right: .8em;
+}
+.form-btn{
+  text-align: right;
+  overflow: hidden;
+}

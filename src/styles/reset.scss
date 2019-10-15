@@ -1,0 +1,181 @@
+html, body, div, section, header, footer, aside, ul, ol, li, table, tr, th, td, button, input, textarea, select, h1, h2, h3, h4, h5, h6, em, i, strong, p, span, blockquote {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, em, th, i, strong, input, textarea, button, select {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+}
+ul, ol {
+    list-style: none;
+    vertical-align: top;
+}
+table, td, th {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input, button, select, textarea {
+    outline: none;
+    background: none;
+}
+textarea {
+    resize: none;
+}
+img, a img {
+    border: none;
+    vertical-align: top;
+}
+a{
+    text-decoration:none
+}
+
+/**显示隐藏**/
+.clear:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+
+body{
+    overflow: hidden;
+  }
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.label {
+    background-color: #d1dade;
+    color: #5e5e5e;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 3px 8px;
+    text-shadow: none;
+}
+.label-danger {
+    background-color: #ed5565;
+    color: #FFF;
+}
+.divider {
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.text-center {
+    text-align: center;
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+.small {
+    font-size: 85%;
+    color: #888
+}
+body {
+    font-family: "open sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #676a6c;
+    overflow-x: auto;
+    min-width: 1120px;
+}
+
+// ::-webkit-scrollbar-track {
+//     background-color: #F5F5F5
+// }
+
+// ::-webkit-scrollbar {
+//     width: 6px;
+//     background-color: #F5F5F5
+// }
+
+// ::-webkit-scrollbar-thumb {
+//     background-color: #999
+// }
+
+
+.mr-0 {
+    margin-right: .3em;
+}
+// Element-UI reset
+
+.el-dialog__header{
+    padding: 1.2em;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+}
+.el-dialog__title {
+    font-weight: bold;
+    color: #676a6c
+}
+
+.el-dialog__headerbtn {
+    top: 55%;
+    right: 1em;
+    font-size: 1.3em;
+    transform: translate(0%,-50%);
+}
+.el-input__inner {
+    border-radius: .3em;
+    height: 2.5em;
+    line-height: 2.5em;
+    padding: 0 1em;
+}
+.el-select .el-input__inner {
+    padding-right: 1em;
+}
+.el-form-item__content {
+    line-height: 2.5em;
+    font-size: 1em;
+}
+.el-form-item__label {
+    font-size: 1em;
+    line-height: 2.5em;
+    padding: 0 .9em 0 0;
+}
+.el-submenu [class^=el-icon-],
+.el-submenu i,
+.el-menu-item i {
+    color: #909399;
+    margin-right: .3em;
+    width: 1.5em;
+    text-align: center;
+    font-size: 1.3em;
+}
+.el-form--inline .el-form-item {
+    margin-bottom: 10px;
+}
+.el-select {
+    width: 100%;
+}
+.el-tabs__nav-wrap::after{
+    height: 1px;
+}
+.el-tabs__nav-scroll {
+   padding-left: .8em;
+}
+@media screen and (max-width: 1120px) {
+    .sys-content {
+        width: calc(1120px - 15.7em);
+    }
+}

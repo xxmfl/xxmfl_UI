@@ -1,0 +1,32 @@
+@import './variables.scss';
+@import './reset.scss';
+.sys-content {
+    position: absolute;
+    top: 4.3em;
+    left: 15.7em;
+    right: 0;
+    bottom: 0;
+}
+
+.content-main {
+    height: calc(100% - 5.7em);
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 1em 1.5em;
+    padding-bottom: 70px;
+}
+
+
+.navbar .navbar-minimalize i {
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+.el-submenu .fa {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 24px;
+    text-align: center;
+    font-size: 18px;
+}

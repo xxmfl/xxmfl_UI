@@ -1,0 +1,22 @@
+.example1Page1{
+    .top{
+        margin: 10px 0;
+        .el-button.is-circle{
+            padding: 8px;
+        }
+    }
+
+    .el-table{
+        /deep/ th {
+            padding: 10px 0;
+
+        }
+        /deep/ tr {
+            padding: 8px 0;
+        }
+        /deep/ td {
+            padding: 2px 0;
+        }
+    }
+
+}

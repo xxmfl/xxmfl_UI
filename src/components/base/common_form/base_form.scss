@@ -1,0 +1,19 @@
+.el-range-editor.el-input__inner{
+  width: 300px;
+}
+.form-btn{
+  padding: 20px 0px 0px;
+}
+.el-dialog__body{
+  padding: 2em;
+  .el-select,
+  .el-cascader{
+    width: 100%;
+  }
+  .el-form-item{
+    min-width: 33%;
+    &.form-textarea{
+      min-width: 100%;
+    }
+  }
+} 
